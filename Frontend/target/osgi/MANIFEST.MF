@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.mybatis.jpetstore
+Bnd-LastModified: 1632122015248
+Build-Jdk: 1.8.0_191
+Built-By: Pascal.ZARAGOZA
+Bundle-Description: The MyBatis parent POM.
+Bundle-DocURL: http://maven.apache.org
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: frontend
+Bundle-SymbolicName: org.mybatis.frontend
+Bundle-Vendor: MyBatis.org
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.mybatis.jpetstore.domain;version="1.0.0.SNAPSHOT",or
+ g.mybatis.jpetstore.service;version="1.0.0.SNAPSHOT",org.mybatis.jpetst
+ ore.web.actions;version="1.0.0.SNAPSHOT"
+Implementation-Build-Date: 2021-09-20 07:12:37+0000
+Implementation-Title: frontend
+Implementation-URL: http://maven.apache.org
+Implementation-Vendor: MyBatis.org
+Implementation-Vendor-Id: org.mybatis
+Implementation-Version: 1.0-SNAPSHOT
+Import-Package: com.google.gson,com.google.gson.annotations,com.google.g
+ son.stream,feign,feign.codec,feign.gson,javax.servlet.http,net.sourcefo
+ rge.stripes.action,net.sourceforge.stripes.integration.spring,net.sourc
+ eforge.stripes.validation,org.springframework.context.annotation
+Include-Resource: {application.properties=src/main/resources/application
+ .properties},{StripesResources.properties=src/main/resources/StripesRes
+ ources.properties},META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE
+Private-Package: interfaces
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: frontend
+Specification-Vendor: MyBatis.org
+Specification-Version: 1.0-SNAPSHOT
+Tool: Bnd-4.1.0.201810181252
+X-Compile-Source-JDK: 1.8
+X-Compile-Target-JDK: 1.8

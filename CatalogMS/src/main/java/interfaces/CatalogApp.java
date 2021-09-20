@@ -1,0 +1,16 @@
+package interfaces;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.context.annotation.ImportResource;
+
+@SpringBootApplication
+@ImportResource("classpath:applicationContext.xml")
+@EnableDiscoveryClient
+//@ComponentScan(basePackages={"org.mybatis.jpetstore.mapper","org.mybatis.jpetstore.service" })
+public class CatalogApp {
+    public static void main(String[] args) {
+        SpringApplication.run(CatalogApp.class, args);
+    }
+}
