@@ -1,5 +1,5 @@
-# MSAJPetStore
-A revisited MSA application migrated from JpetStore application (https://github.com/mybatis/jpetstore-6)
+# MicroJPetStore
+A revisited JPetStore application that follows the microsevice-oriented architectural style (https://github.com/mybatis/jpetstore-6)
 
 ## Getting started
 
