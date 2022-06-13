@@ -1,5 +1,5 @@
 # MicroJPetStore
-A revisited JPetStore application that follows the microsevice-oriented architectural style (https://github.com/mybatis/jpetstore-6)
+A revisited JPetStore application that follows the microsevice-oriented architectural style (https://github.com/mybatis/jpetstore-6, see fork https://github.com/wj86/jpetstore-6 for the original version)
 
 ## Getting started
 
